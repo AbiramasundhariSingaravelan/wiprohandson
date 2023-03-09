@@ -1,0 +1,171 @@
+52
+Core JAVA
+Advanced JAVA
+	Servlets
+		Request
+		Response
+	JSP
+Framework
+	->Spring
+	->Hibernate
+Microservices
+Frontend:
+	Angular
+	React
+Javascript
+RDMS
+CORE JAVA:
+
+	History of JAVA
+	Hello World Program->Structure of JAVA Program
+	Data Types
+	Variable
+	Control Structures
+
+History of JAVA
+	
+		James Gosling under Sun Microsystem - 1995 (SCJP)
+		JAVA->island
+		oak
+		Oracle (OCJP)
+Structure of JAVA Program:
+
+		Package 
+		Class Definition
+			Data Members
+			Main Method(Starting point of execution)
+
+JDK -> Java Development Kit -> Development Environment
+JRE -> Java RunTime Environment -> Execution Environment
+JVM -> Java Virtual Machine -> Heart
+
+Editors:
+	Eclipse
+	Netbeans
+
+access specifier
+	->defines the scope(where it is using being accessed) of the particular element
+	->private
+	->protected
+	->public
+void -> returns nothing
+static
+	-method->can be invoked without object
+methods will be invoking using object
+
+Printing a Statement:
+
+			System.out.println
+				System -> Predefined class available in java
+				out -> an object of the class "System"
+				println -> method available in the class System
+Creating a Variable:
+		->memory location -> store some value
+		->DataType variableName;
+DataTypes:
+			int -> whole numbers
+			float -> decimal numbers
+			double -> decimal numbers
+			long -> numeric data
+			char -> single character
+			String -> sequence of characters
+			
+Total Marks Secured : 100
+
+Control Structures
+		Decision Making
+				If Structure
+					->Simple If
+					->If(true) Else(false)
+					->Else If Ladder
+					->Nested If(if block inside another if block)
+				Switch Block
+		Looping Statements
+				Do-While
+				Entry Controlled Loop
+				While
+				for
+				for-each -> Arrays
+			For Loop:
+					for(initialization;testCondition;inc/dec)
+					{
+							//body of loop
+					}
+Operators
+		Arithmetic Operators (+, -, *, /, %)
+		Relational Operators( <, >,<=,>=,==,!=)
+		Logical Operators (&&, ||, !)
+		Increment/Decrement Operators
+					a++ -> Post Increment->Incrementing value after printing
+					++a -> Pre Increment -> Incrementing value before printing
+					a-- ->Post DEcrement -> Decrementing value after printing
+					--a -> Pre Decrement -> Decrementing value before printing
+Reading a value:
+		Scanner class -> util package -> import java.util.Scanner;
+		System.in
+Arrays:
+	->Collection of similar data items
+	->int a[]={1,2,3,45,6}
+	->Single Dimensional Array
+	->Multi Dimensional Array
+Object Oriented Concepts:
+	1. Classes & Objects
+	2. Encapsulation
+	3. Abstraction
+	4. Polymorphism
+	5. Inheritance
+
+1. Create a Java program that will read some input value(3 digit) from the user. Check whether the number is armstrong or not
+
+2. Create a Java Program that shows a list of options for an employee
+		1. Add an Employee
+		2. Update an Employee
+		3. Deleting an employee
+Option 1 -> invoke addEmployee()
+Option 2 -> updateEMplo()
+Option 3 -> DeleteEmployee()
+
+
+121
+153=1
+
+Suresh (ta149@sfjbs.co.in)
+Simhadri Ramya Rani(20408473)
+from GALIGARI MANI PRADEEP to everyone:    10:05 AM
+Galigari Mani Pradeep - 20408952
+to Mamatha (privately):    10:06 AM
+8870827575
+to GALIGARI MANI PRADEEP (privately):    10:07 AM
+8870827575
+from Meghana Doddapuneni to everyone:    10:07 AM
+20422252
+from Meghana Doddapuneni to everyone:    10:07 AM
+I have interview from 12-12:30 pm
+from P.P.Sai Manisha_20422270 (privately):    10:08 AM
+P.P.Sai Manisha_20422270 (having AZ104 Certfication training)
+from sidduluri vanaja to everyone:    10:09 AM
+I have interview from 12-12:30 pm
+from pusarla sujeeth (privately):    10:12 AM
+Hello abiramasundari 
+to pusarla sujeeth (privately):    10:14 AM
+Yes
+from pusarla sujeeth (pr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

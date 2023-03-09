@@ -1,0 +1,49 @@
+OOPS Concepts:
+	1. Classes and objects
+	2. Encapsulation
+	3. Abstraction
+	4. POlymorphism
+	5. Inheritance
+
+Encapsulation:
+	binding up of classes and objects together
+	1. Declare the data members in private mode
+	2. Define getters and setters
+	Access Specifiers:
+		1. private -> used in the own class.
+		2. protected -> used inside the class in which it is defined, as well as its derived class
+		3. public -> anywhere in the program
+Polymorphism
+	->Ability of an object to have more than one form
+	->Function Overloading
+			->same function name 
+			->differ with respect to the number of arg/. or type of arguments
+	-> Constructor OVerloading
+				->Constructor -> memory allocation
+				->constructor name must be similar to class name
+				->no return type
+				->must be defined with public access specifier
+Inheritance
+	->creating a new class from an existing class
+	->new class->derived class, sub class, child class
+	->Existing class -> Base Class, Super Class, Parent Class
+	->reusability
+	->impl. by Function overriding
+	->Function overriding -> will have same method -> base class & derived class
+	->Types:
+			1. Single Inheritance -> Single Parent Class -> Single Child Class
+			2. Multiple Inheritance -> Multiple Base Class -> Single Derived Class (supported by interfaces)
+			3. MultiLevel Inheritance -> Base Class -> Derived Class 1-> Derived Class2
+			4. HYbrid -> COmbination of any other inheritance
+			5. Hierarchical -> Single Base Class -> Multiple Derived Class
+
+->Swapping=> a=5, b=10;
+->Sorting=>50,100,25,67,35
+
+Interfaces:
+	1. use the keyword interface
+	2. No instantiation is possible
+	3. Method definition is not possible
+Abstraction:
+	1. hiding the background details
+	2. Implemented by abstract classes
