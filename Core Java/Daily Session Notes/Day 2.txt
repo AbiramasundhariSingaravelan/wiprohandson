@@ -47,3 +47,13 @@ Interfaces:
 Abstraction:
 	1. hiding the background details
 	2. Implemented by abstract classes
+Abstract
+	abstract Classes -> no instantiation is possible
+	abstract functions -> method definition is not possible
+static
+		Static variables -> automatically initialized to zero
+		Static classes->all inner classes of java
+		Static methods->used to invoke a method w/o using an object
+final
+		final variable -> changed
+		final method

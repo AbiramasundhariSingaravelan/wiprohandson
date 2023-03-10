@@ -1,0 +1,57 @@
+Basics of JAVA
+	->History of JAVA
+	->Structure of JAVA Program
+	->Data Types, Variables
+	->Static Class Members
+	->Arrays
+	->OOPS
+		->Classes and Objects
+		->Encapsulation
+		->Abstraction
+		->Polymorphism
+		->Inheritance
+	->Interfaces
+	->Abstract
+	->Static
+	->Final
+		->variables, methods
+		->final int x=100;
+		->final void demo();
+	->super()
+			->Invoking base class constructor from the derived class
+	->Packages
+			->Collection of Classes
+			->Create User-Defined Package
+			->Built-in Packages
+					import java.util.*
+					import java.lang.*
+	->Dynamic Method Dispatch Or Runtime Polymorphism
+			->Method Overriding
+			->Predict the method invocation during runtime
+			->Using ref type of base class 
+			->copy ref type of base class to derived object
+	->Object class 
+			->built in class available under lang package (java.lang)
+			->base class for all other classes
+			->need to refer any object whose type is not known
+			->Methods of Object Class:
+					1. getClass()=>returns the class Name
+					2. hashCode()=>returns hashcode number of the object
+					3. equals()=>Compares the given object to this object
+					4. clone()=>exact copy of the object that is provided
+					5. toString()=>converts an object into string
+	->Garbage Collection
+				->process->automatic memory management
+				->javac filename.java=>classfile->execute java program->any other platform
+				->System.gc()
+				->finalize()
+				->Unreachable code
+				->Eligibility for garbage Collection:
+						->nullifying the reference variable
+						->Re-assigning the ref variable
+						->Object inside the method
+				->System.gc() Vs finalize
+						1. gc()->invocation || finalize->override(method avl in object)
+						2. gc()->cleaning the sytem resources
+							gc()->internally use finalize method->delete memory of individual objs.
+	->finalization
