@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ArrayEg {
+public class arrdemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,5 +14,6 @@ public class ArrayEg {
 			a[i]=s.nextInt();
 		}
 		
-
+	}
+	
 }

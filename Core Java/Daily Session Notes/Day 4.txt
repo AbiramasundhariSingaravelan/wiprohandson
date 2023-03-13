@@ -1,0 +1,34 @@
+OOPS Concepts
+Packages
+Exception Handling
+		->Errors => compile time
+		->Exceptions => runtime errors
+		->Built-in Exception
+		->Customized Exception
+		Exception Handlers
+			1. Try Block
+						->statement that might result in an exception
+			2. Catch Block
+						->Handling logic must be provided
+			3. Throw
+						->throwing an exception
+			4. Throws
+						->Declaring the exception
+			5. Finally
+						->executed always
+		Key POints
+			1. Statement that might result in exception => try block
+			2. try block must be followed by atleast one catch
+			3. Exception -> base class for all kind of exceptions
+			4. catch block with exception class obj->handle all exceptions
+			5. exceptions will be handled only if it is received inside a try block
+		Types of Exceptions
+			1. Checked Exception
+					->directly inherited from Throwable
+					->excpetions are checked at compile time
+					->SqlException,IOException
+			2. Unchecked Exception
+					->inherited from RunTimeException
+					->checked at runtime
+					->Arithmetic Exception
+					->IndexOutofBoundException
