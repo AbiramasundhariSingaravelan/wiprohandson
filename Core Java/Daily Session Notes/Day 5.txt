@@ -1,0 +1,43 @@
+Exception Handling
+Collection Framework
+		->Group of objects
+		->List
+				->Store a list of elements
+				->ArrayList
+				->add -> adding elements individually
+				->addAll ->adding multiple elements 
+				->remove
+				->removeAll
+				->accepting duplicate elements
+				->Traversing a list using Iterator Interface
+						->iterator()=>will visit individual elements available in a collection framework
+						->hasNext() =>boolean method which will return true, if there is any element to be 												traversed
+						->next() => returning the actual next element.
+		->Set
+				->duplicate elements are not allowed
+				->HashSet
+				->TreeSet
+				->EntrySet
+				->Operations in a set interface
+						1. Intersection ->only common elements
+						2. Union -> all elements of both set
+						3. Difference -> delete values from one set
+		->Map
+				-> key value pair of elements
+				->Map<Integer,Integer>
+				->Map <Integer,String>
+						Id			Name
+				->HashMap
+				->TreeMap
+				->HashTable
+				->LinkedHashMap
+				->Methods:
+					1. put -> adds an entry in the map
+					2. putAll -> add a map inside another map
+					3. remove -> delte an entry
+					4. keySet -> returns the view containing all the keys
+					5. entrySet -> returns the view containing all the values
+					6. clear -> reset everything
+					7. get -> returns the value for specified key
+					8. contains-> searching a specified in a map
+		->Dequeue

@@ -32,3 +32,15 @@ Exception Handling
 					->checked at runtime
 					->Arithmetic Exception
 					->IndexOutofBoundException
+			3. Customized Exception (or) User-Defined Exception
+					->Inherit a class from Exception Base Class
+2. Generics and Collections
+		->Templates
+		->different data types
+		->Mention that the class is going to use Generics with type inference <T>
+3.Collections
+		->group of elements
+		->List
+		->Set
+		->Map
+		->dequeue
