@@ -1,0 +1,43 @@
+Collections 
+	->List -> accepting duplicate elements
+	->Set -> no duplicate elements - Intersection, Union, Difference
+	->Map  -> Key Value pair of elements- getKey, getValue
+	->ArrayList
+	->LinkedList
+	->EntrySet
+	->TreeSet
+	->HashSet
+	->HashMap
+	->TreeMap
+JAVA IO 
+	->Input/Output -> Process the input and produce the output
+	->Streams
+			->Sequence of data
+			->composed of bytes
+			->3 different streams
+					1. System.out -> Standard Output Stream
+					2. System.in  -> Standard Input Stream
+					3. System.err -> Standard Error Stream
+			InputStream
+					->read data from any source
+					->.source->file, array, peripheral device
+					->Methods:
+							->read
+							->available
+							->close
+			OutputStream
+					Methods:
+						1. write(int) -> used to write a byte to current o/p stream
+						2. write(byte[])->used to write an array of byte
+						3. close() -> current file needs to be closed			
+						4. flush() -> same file->reading/writing->flushed before closed
+	->File Handling
+			->File
+			->FileOutputStream
+			->FileInputStream
+			->BufferedOutputStream
+			->BufferedInputStream
+			Copying content from one file to another:
+				1. Source File Name :D:/a1.docx
+				2. Destination File Name: D:/a2.docx
+	->Seri

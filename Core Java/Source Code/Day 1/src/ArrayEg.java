@@ -14,5 +14,5 @@ public class ArrayEg {
 			a[i]=s.nextInt();
 		}
 		
-
+	}
 }

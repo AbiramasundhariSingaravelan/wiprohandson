@@ -7,7 +7,7 @@ public class SetInterface {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Set<String> s1=new EntrySet<String>();
+		/*Set<String> s1=new EntrySet<String>();
 		s1.add("list");
 		s1.add("set");
 		s1.add("set");
@@ -17,7 +17,7 @@ public class SetInterface {
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next());
-		}
+		}*/
 	}
 
 }
