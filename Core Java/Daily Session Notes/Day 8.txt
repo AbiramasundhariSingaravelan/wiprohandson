@@ -1,0 +1,20 @@
+4. Synchronization
+				1. controlling the access of  multiple thread to any shared resource
+				Why Synchronization:
+					1. To prevent consistency problem
+					2. To Prevent Thread interference
+				Types of Synchronization
+					1. Mutual Exclusive
+							1. Synchronized method
+							2. synchronized block
+							3. static synchronization
+					2. Inter Thread Communication
+							1. wait() => current thread
+							2. notify()=>waking up single thread which is waiting on this object
+							3. notifyAll()=>waking up all the threads that are in waiting state
+		5. Concurreny - DeadLock
+2. Wrapper Class
+		1. convert primitive data type into object 
+		   convert object into primitive type
+		2. Autoboxing
+			unboxing

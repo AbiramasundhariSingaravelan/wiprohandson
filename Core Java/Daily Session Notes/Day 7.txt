@@ -1,0 +1,25 @@
+Multithreading
+		1. Thread
+				->Light Weight Process
+				->Shared memory area
+				->Advantages:
+						1. Doesn't block the user
+						->perform multiple operations together
+		2. Implementation
+				->Extending a class from Thread Class
+				->Implementing a class from Runnable Interface
+				->Overriding run()
+		3. Life Cycle of Thread
+				1. New
+					->when a new thread is created.
+				2. Active
+					->when thread invokes start() method
+					->Runnable -> ready to run
+					->Running -> thread is executing
+				3. Blocked/Waiting
+					-> is forced to be in inactive
+				4. Timed Waiting
+					->Keeps the thread in waiting state and once the time elapses  thread is forcefully removed
+				5. Terminated
+					->completes its execution.
+		

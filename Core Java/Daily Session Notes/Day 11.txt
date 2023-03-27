@@ -1,0 +1,20 @@
+Spring Framework:
+		1. Framework -> JAVA EE Application
+		2. Framework -> Collection of libraries
+				Struts,Hibernate,JSF
+		3. Dependency Injection
+		4. Loose Coupling
+1		5. XML->
+				applicationContext->IOC Container->Inversion of Control
+
+				BeanFactory->taking one object of Resource interface
+			1. Schema Definition
+			2. Bean Definition
+Creating a sample Spring Application:
+	1. Create a JAVA Application
+	2. Right Click project -> Build Path -> Configure Build Path
+								 ->Choose Libraries->ClassPath->add jars
+	3. Creating a POJO Class
+	4. Creating Bean Definition file
+	5. Creating a main method class
+

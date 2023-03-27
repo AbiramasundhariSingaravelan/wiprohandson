@@ -1,0 +1,58 @@
+Database Connectivity
+JAVA 8 Features
+	->Lambda Expression
+	->Functional Interface / SAM
+	->Method References
+		->Static Method Reference->static
+		->Instance Method Reference->
+		->Constructor Reference ::new
+	->Stream API
+	->Date/Time API
+	->Junit
+JAVA 8 Streams:
+	->Process your collection objects.
+	->java.util.stream
+	->doesn't store elements.
+	->evaluates the code only when it required.
+Stream Operations:
+	->Intermediate Operation
+			map()
+			filter()
+			sorted()
+	->Terminal Operation
+			collect
+			forEach
+			reduce
+Date/TIME API
+	->java.time.LocalDate
+	->java.time.LocalTime
+	->java.time.LocalDateTime
+	->java.time.MonthDay
+	->java.time.year
+	->java.time.YearMonth
+
+Testing
+	1. Manual Testing
+	2. Automated Testing
+1. unit testing
+2. Integeration testing
+3. System Testing->
+
+   A -> 2016
+   b -> 2007
+4. Acceptance Testing
+
+
+
+JUNIT:
+	unit testing framework for java
+	@Test
+	@BeforeClass -> executed only once
+	@AfterClass  -> executed only once
+	@Before
+	@After
+Assertions
+	1. assertEquals
+	2. assertNotEquals
+	3. assertTrue
+	4. assertFalse

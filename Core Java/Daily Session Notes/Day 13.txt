@@ -1,0 +1,6 @@
+Created servlet
+
+LoginServlet
+WelcomeServlet
+index.html=>credentials are correct -> welcomeServlet
+		   =>Credentials are wrong -> errorMessage->LoginServlet

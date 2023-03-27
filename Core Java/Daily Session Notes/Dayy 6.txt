@@ -40,4 +40,8 @@ JAVA IO
 			Copying content from one file to another:
 				1. Source File Name :D:/a1.docx
 				2. Destination File Name: D:/a2.docx
-	->Seri
+	->Serialization
+				->Write state of an object into byte stream.
+						->writeObject()
+				->reverse of serialization->deserialization
+						->readObject()

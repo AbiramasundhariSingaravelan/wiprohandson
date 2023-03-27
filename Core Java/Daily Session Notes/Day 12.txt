@@ -1,0 +1,23 @@
+JAVA Backend
+	->Spring 
+	->servlets
+		->Common gateway interface
+			->number of client->delayed response time
+Request -> Server->Response
+Servlet->technology->create web apps
+servlet->API->interfaces and classes
+	Adv:
+		1. Portability
+		2. Better performance
+		3. secured
+servlet-api.jar
+
+Life Cycle of Servlet:
+		1. init()
+		2. service()
+		3. destroy()
+1. Servlet class is loaded -> ClassLoader->
+2. Servlet instance is created -> only once
+3. init method is invoked ->only once->.initialize the servlet
+4. service method is invoked->each time when a request is triggered
+5. destroy method is invoked->servlet instance will be deleted.

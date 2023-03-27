@@ -1,0 +1,56 @@
+1. JDBC API
+2. JAVA 8 features
+		-> Lambda Expressions
+		-> Stream API
+		-> DATE & Time API
+		-> Functional Interfaces
+JDBC API:
+	-> Java Database Connectivity
+	-> Connect and execute query with the database
+	-> MysQL WorkBench
+Creating a connection in mysql Workbench
+	1. CLick on + icon under "MySQL Connections"
+	2. PRovide any name for the connection 
+	3. Provide the password
+	4. Click on test connection
+
+Adding a new record in table:
+		insert into student(col1 , col2, col3, col4) values(val1, val2, val3, val4);
+Classes and interfaces
+	1. Connection -> in
+	2. Statement
+	3. ResultSet
+	4. PreparedStatement
+	5. DriverManager
+Connectivity Steps:
+	1. Register the Driver Class
+			->Class.forName(String name);
+	2. Create Connection
+			->Connection
+			->DriverManager
+	3. Create Statement
+	4. Execute Queries
+	5. Close Connection
+Creating mysql connection inside eclipse:
+	1. Window -> Show View->Other -> Data Source Explorer
+	2. Right Click Database Connections->New 
+	3. Provide the database (mysql,oracle,......)
+	4. Click on "New Driver Definition" icon
+	5. Remove the existing jar and add your file
+	6. Check db name, credentials, click on test connection
+		Select -> executeQuery
+		Insert/Update/Delete -> executeUpdate()/execute()
+
+Java 8 features
+		1. Lambda expression
+				->to implement functional interface
+				Syntax : (argument-list)->body
+				->Method References:
+					1. Ref to a static method
+					2, Ref to an instance method
+					3. Ref to constructor 
+				Function Interfaces
+						->only one abstract method
+						->Single Abstract Method Interface (SAM Interface)
+
+
