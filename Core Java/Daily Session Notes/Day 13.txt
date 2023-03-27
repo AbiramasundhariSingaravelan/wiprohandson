@@ -4,3 +4,49 @@ LoginServlet
 WelcomeServlet
 index.html=>credentials are correct -> welcomeServlet
 		   =>Credentials are wrong -> errorMessage->LoginServlet
+	RequestDispatcher
+		->getRequestDispatcher(String arg)
+
+1. Database
+2. Employee ->
+3. EmployeeDao
+4. SaveServlet
+5. ViewServlet
+
+JSP 
+	->Java Server Pages
+	->Extension to servlet
+	->No need of recompilation
+	->Less Code
+Life Cycle of JSP Page:
+	1. Translation of JSP->translated to java->Servlet file->
+	2. Compilation -> Compiling servlet file
+	3. Class Loading -> Login.class
+	4. Instantiation
+	5. Initialization (jspinit())
+	6. Request Processing(jsp_service)
+	7. Destroy(jspDestroy())
+JSP Scripting Elements:
+	1. JSP Scriptlet Tag
+	2. JSP Expression Tag
+	3. JSP Declaration Tag
+JSP Directive Elements:
+	1. JSP Page Directive->defines attribute -> entire jsp page
+				->contentType
+				->import
+				->errorPage
+				->isErrorPage
+				->language
+				->pageEncoding
+				->isElIgnored
+	2. JSP include Directive
+	3. JSP Taglib Directive ->define custom tag
+JSP Action Elements:
+	1. jsp:forward -> forwarding the request and response to another resource
+	2. jsp:include -> including any other resource
+	3. jsp:useBean -> create or locate bean object
+	4. jsp:setProperty -> sets the value of property
+	5. jsp:getProperty -> gets the value of property
+JavaBean class
+	1. no-arg constructor
+	2. getters/setters
