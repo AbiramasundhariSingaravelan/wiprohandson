@@ -1,0 +1,23 @@
+ Servlets and JSP
+SPring Core and Maven
+Spring->Framework
+Loose Coupling->no dependency exist b/w the objects
+Dependency Injection
+	->removes all dependency
+	->Setter Injection
+	->Constructor Injection
+	->Autowiring
+Inversion of Control
+	->IOC Containers
+		->ApplicationContext
+		->BeanFactory
+Maven
+		project management tool
+
+Setter Based Injection:
+	1. Create a POJO class
+	2. Create a bean definition file and inject the values using property and value tags
+	3. Create the Main Method class
+
+Servlets:
+	1. Create a dynamic web application that handles login and logout functionality along with cookies

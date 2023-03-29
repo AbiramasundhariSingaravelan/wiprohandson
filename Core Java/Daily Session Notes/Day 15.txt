@@ -1,0 +1,47 @@
+JAVA
+	->SPring framework
+	->Hibernate
+Hibernate
+	->ORM Tool
+		->Object Relational Mapping
+
+
+Employee
+	eid
+	ename
+	age
+	salary
+
+Database
+	eid
+	ename
+	age
+	salary
+	DOJ
+Advantages:
+	1. Automatic Table creation
+	2. Database Independent Query
+	3. Fast Performance
+
+Hibernate Architecture:
+		1. JAVA Application Layer
+		2. Hibernate framework Layer
+		3. Backhand api Layer
+		4. Database Layer
+Core Objects of Hibernate Framework:
+		1. Session Factory -> create an instance->enable the db connectivty
+		2. Session	-> Start the session
+		3. Transaction ->Operation
+		4. ConnectionProvider->determines the drivermanager
+					Connection c;
+					c=Drivermanager.get
+		5. TransactionFactory ->Optional
+
+Creating Hibernate Application:
+	1. XML Based 
+			1. Create a persistent class
+			2. Create a mapping file for the persistent class
+			3. Create configuration file
+			4. Create a main method class
+			5. Add external jar files
+	2. Annotation Based
