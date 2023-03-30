@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="patientBean" class="com.example.demo.Patient">
+		<property name="pid"><value>101</value></property>
+		<property name="name"><value>AA</value></property>
+	</bean>
+	<bean id="medicineBean" class="com.example.demo.Medicine">
+		<property name="id">
+			<value>100</value>
+		</property>
+		<property name="name">
+			<value>Crocin</value>
+		</property>
+		<property name="price">
+			<value>20</value>
+		</property>
+		<property name="dosage">
+			<value>20</value>
+		</property>
+		<property name="mfd">
+			<value>15/01/2023</value>
+		</property>
+		<property name="expDate">
+			<value>25/06/2023</value>
+		</property>
+		<property name="attach" ref="patientBean">	
+		</property>
+		<property name="patients">
+			<list>
+				<value>P1</value>
+				<value>P2</value>
+				<value>P3</value>
+				<value>P4</value>
+				<value>P5</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>

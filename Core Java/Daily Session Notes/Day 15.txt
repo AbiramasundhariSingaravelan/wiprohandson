@@ -45,3 +45,10 @@ Creating Hibernate Application:
 			4. Create a main method class
 			5. Add external jar files
 	2. Annotation Based
+				1. Create a persistent class with annotations
+			3. Create configuration file
+			4. Create a main method class
+			5. Add external jar files
+
+DDl
+dMl

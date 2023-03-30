@@ -1,0 +1,44 @@
+Spring Framework
+    Loose Coupling
+	 Dependency Injection
+			->removes any dependency
+			->Bean Class
+			->IOC Containers
+				->Inversion of Control
+						->ApplicationContext->ClassPathXmlApplicationContext
+						->BeanFactory->Resource
+			->Setter Injection
+				->SI Injection
+				->SI with Dependent Object
+				->SI with Collection Object
+			->Constructor Injection
+				->CI Injection
+				->CI with Dependent Object
+				->CI with Collection Object
+			->Autowiring
+			Student - Address 
+			Pojo Class -> Pure JAVA OBject
+			Bean Class
+			JAva Bean
+					->Traditional java class -> contains fields, getters/setters/default constructor
+Hospital Management System
+	Entities:
+			1. Patient
+						->pid, name, doa, dod
+			2. Doctors
+			3. Medicine
+					->mid, mname,price,mfd,exdate,dosage
+Payroll Management System
+		Entities->real time entity
+			1. Employee
+					->Empid,name,age,salary,doj
+
+Creating a Spring Application
+	1. Create a maven project with required dependencies
+	2. Create a POJO Class
+	3. Create bean specification class
+	4. Create a main method class
+Autowiring:
+	1. byName -> name of bean and property name must be same
+	2. byType -> data type of property
+	3. byConstructor -> based on constructor
