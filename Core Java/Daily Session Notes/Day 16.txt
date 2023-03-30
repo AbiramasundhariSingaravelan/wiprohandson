@@ -7,15 +7,15 @@ Spring Framework
 				->Inversion of Control
 						->ApplicationContext->ClassPathXmlApplicationContext
 						->BeanFactory->Resource
-			->Setter Injection
+			->Setter Injection<getters/setters><property>
 				->SI Injection
 				->SI with Dependent Object
 				->SI with Collection Object
-			->Constructor Injection
+			->Constructor Injection<constructors><constructor-arg>
 				->CI Injection
 				->CI with Dependent Object
 				->CI with Collection Object
-			->Autowiring
+			->Autowiring<autowire>
 			Student - Address 
 			Pojo Class -> Pure JAVA OBject
 			Bean Class
