@@ -1,0 +1,42 @@
+SPring Framework:
+	1. Dependency Injection
+			->SI-> partial dependency is possible
+			->CI -> No Partial dependency is possible
+			->Autowiring
+					->byName
+					->byType
+					->byconstructor
+	2. Spring AOP	
+			->OOPS -> class
+			->AOP
+				->Aspect Oriented Programming
+				->breaking the program logic into distinct parts
+				->aspect
+				->cross-cutting concerns-> centralized part of the application
+			->Implementation of AOP:
+					1. By XML
+					2. By Annotation base configuration.			
+			-> Terminologies
+					1. Join Point
+							->any point in the program :-> method execution variable access, exception handling
+
+					2. Advice->Operation that is taken on a JoinPoinr.
+								->bEFORE Advice
+								->After Advice
+								->AfterThrowing ADvice
+								->AfterReturning
+					3. Point cut
+									->expression tag
+									(....k*)
+					4. Inreoduction
+
+					5. Target Object
+					6. Aspect -> combination of classes and advice,joinpoint
+					7. AOP Proxy
+					8. Weaving
+Spring JDBC
+		1. MySQL Table
+		2. POJO Class
+		3. Dao Class
+		4. Main
+		5. Bean definition 
