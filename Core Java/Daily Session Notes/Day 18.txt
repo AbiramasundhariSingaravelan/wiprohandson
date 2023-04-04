@@ -1,0 +1,33 @@
+Spring Framework:
+	1. Dependency Injection
+	2. Inversion of Control
+	3. SI
+	4. CI
+	5. Autowiring
+	6. Aspect Oriented Programming
+	7. Spring JDBC
+XML based
+Spring Boot
+	->JAVA EE application
+	->Core Spring + Spring MVC - XML Based Configuration
+ 
+M -> Model -> Data layer
+V -> View  -> Presentation Layer
+C -> Controller -> Business Logic Layer
+Presentation Layer
+Business Logic 
+Data Layer
+Spring MVC:
+	1. Dispatcher Servlet -> receive the request
+	2. Handler Mapping -> comprising all the requests(/login, /register,.....)
+	3. Controller->LoginController, 
+	4. ModelAndView->Database + UI
+	5. ViewResolver-> view that is to be rendered.
+localhost:8080/login
+
+login.jsp
+
+Creating a spring boot application:
+	1. Install STS inside eclipse (Spring tool suite)
+				Help->Eclipse MarketPlace->Search for "Spring Starter Suite"->Install Spring tools 4->		Restart Eclipse
+	2. File->New->Other->Spring Starter Project

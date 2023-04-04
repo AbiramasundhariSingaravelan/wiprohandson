@@ -1,0 +1,12 @@
+Spring Boot = core spring + spring mvc - xml configuration
+STS inside eclipse
+Spring initializer
+
+1. @Controller
+2. @SpringBootApplication
+			@EnableAutoConfiguration
+				-> configures the bean -> run the methods
+			@ComponentScan 
+				-> scan a package for beans
+			@Configuration
+				-> source of bean definition
