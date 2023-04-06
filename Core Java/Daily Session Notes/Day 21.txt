@@ -1,0 +1,33 @@
+Spring Boot: 
+		1. Spring Initializer
+		2. STS inside
+		3. Form Handling
+		4. Form Validation
+		5. Process the request
+		6. Spring Boot Actuator
+				->Sub project SB Framework
+				->monitor and mange the spring boot application
+				->end points (http requests)
+			Features:
+					1. Endpoints
+							->monitor and interact with the application
+							->built-in endpoints.
+					2. Metrics
+							->Delivery of application
+							->micrometers
+					3. Audit
+							-> publishing an event
+{"_links":{"self":{"href":"http://localhost:8080/actuator","templated":false},"health":{"href":"http://localhost:8080/actuator/health","templated":false},"health-path":{"href":"http://localhost:8080/actuator/health/{*path}","templated":true}}}
+
+Spring Data JPA:
+		ORM
+		Spring Data JPA
+		Hibernate
+
+ORM:
+	->Object Relational Mapping
+Hibernate
+	->ORM Tool
+	->save the state of Java Object
+Spring Data JPA
+	->management of relational data

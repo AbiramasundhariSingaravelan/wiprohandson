@@ -1,0 +1,85 @@
+MVC Framework
+
+Model - (Database)
+
+View - user's view(HTMl/jsp pages)
+
+
+Controller-> Business Logic (Servlet)
+
+Spring MVC Architecture
+
+1. Dispatcher Servlet->receives request from the client
+->forwards request to handler mapping
+->depending on the handler mapping, the request will be forwarded to your controller.
+->depending on the view resolver, the response will be rendered in the respective
+ view.
+2. Controller
+3. View Resolver
+
+1. Dispatcher Servlet(bean.xml)
+2. Deployment descriptor(web.xml)
+
+
+
+spring mvc
+spring web
+
+Repositories to be added in maven project
+<dependencies>  
+    <dependency>  
+      <groupId>junit</groupId>  
+      <artifactId>junit</artifactId>  
+      <version>3.8.1</version>  
+      <scope>test</scope>  
+    </dependency>  
+      
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->  
+<dependency>  
+    <groupId>org.springframework</groupId>  
+    <artifactId>spring-webmvc</artifactId>  
+    <version>5.1.1.RELEASE</version>  
+</dependency>  
+  
+<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->  
+<dependency>    
+    <groupId>javax.servlet</groupId>    
+    <artifactId>servlet-api</artifactId>    
+    <version>3.0-alpha-1</version>    
+</dependency>  
+  
+  </dependencies>  
+
+
+Steps for creating spring mvc web application.
+1. File->New->Dynamic Web Project
+2. If it is maven project, copy the repositories inside the pom.xml.
+   	2.1 Else, manually add the jar files to the classpath.
+3.Create a Controller Class
+	3.1 Create a package inside the src(Java Resources)
+	3.2 Create a Controller class(Right click on your package name->New->Class)
+	3.3 use @Controller to make a class as a controller
+	3.4 Define Mapping for rendering your view.
+4. We have to create/update deployment descriptor(Web.xml)
+5. WE have to create dispatcher servlet(spring-servlet.xml)
+6. Create a view.
+
+
+multiple views
+multiple controller
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

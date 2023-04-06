@@ -10,3 +10,7 @@ Spring initializer
 				-> scan a package for beans
 			@Configuration
 				-> source of bean definition
+3. @Component
+			->create a class as a bean
+4. @Bean
+			->create a bean 
