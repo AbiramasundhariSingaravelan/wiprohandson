@@ -31,3 +31,21 @@ Hibernate
 	->save the state of Java Object
 Spring Data JPA
 	->management of relational data
+
+
+1. create a spring boot application that asks the user to register for an event. Perform CrudOperation on a h2 database along with exceptions as well.
+Event:
+	1. event_id
+	2. event_name
+	3. event_location
+	4. start_Date
+	5. end_Date
+	6. tariff
+	7. regCandidates
+
+Operations:
+	1. Add a event
+	2. View All Events
+	3. View Events By Id
+	4. Update an Event
+	5. Delete an Event

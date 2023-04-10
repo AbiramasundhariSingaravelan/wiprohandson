@@ -1,0 +1,50 @@
+Spring Data JPA
+		->CRUD Operations
+		->JpaRepository
+		->CrudRepository
+				->save
+				->findAll
+				->findById
+				->deleteById
+		->Custom JPA methods
+Mappings:
+		1. One to One 
+		2. One to Many
+		3. Many to One
+		4. Many to Many
+Implementation:
+		1. Annotation based Configuration
+					->Pojo class -> required annotations
+					->Individual java classes -> defining configurations
+		2. XML Based Configuration
+					->hibernate.cfg.xml
+
+
+
+Truyum Project
+
+		webapp
+			->login
+				->user, user@123 -> Customer
+				->admin, admin@123 -> Admin
+			->/add-menu-items
+					->Admin will be adding the menu-items
+			->/show-menu-item-list-customer
+					->List of Menu Items
+							Item Id			Item Name		Type		Price			Quantity   Add to Cart
+			->/show-menu-item-list-admin
+					->List of Menu Items
+							Item Id			Item Name		Type		Price			Quantity   Edit/Delete
+			->/add-to-cart
+					->Cart Table
+						->add respective item into cart table
+						->UI should display the appropriate message
+			->/edit-menu-item
+					 ->Display the menu item form with existing details
+					 ->update one or two fields
+			->/delete-menu-item
+					 ->prompt confirmation
+					 ->menu-item must be deleted from the table(menu-item) table
+
+
+
