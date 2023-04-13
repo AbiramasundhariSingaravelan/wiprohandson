@@ -1,0 +1,27 @@
+Basic Authentication
+		/login -> automated credentials-> user, auto-generated
+				-> spring.security.user.name
+		/logout
+In-Memory Authentication
+		->Authentication + Authorization
+		->WebSecurityConfigurerAdapter
+				->configure
+						->AuthenticationManagerBuilder
+								->Create User with roles
+						->HttpSecurity
+								->enabling access
+								->Role Specification
+JWT
+
+Lombok:
+		->prevent boilerplate code
+
+Core Spring
+Spring MVC
+Spring Boot
+SPring Data JPA / Hibernate
+Spring Rest API
+Spring Test
+		Unit Testing all layers of spring boot application
+		Junit
+		Mockito

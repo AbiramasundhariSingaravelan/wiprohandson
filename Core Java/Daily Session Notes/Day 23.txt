@@ -1,0 +1,45 @@
+Spring Rest
+	->REST API
+	->API -> XML
+		SOAP
+		REST	->XML + JSON
+Application Programming Interface -> allow two application to talk to each other
+	->Example:
+				IRCTC
+					USER:
+						Basic Information such departure time, station, berth details
+					DEVELOPER:
+						Displaying Train Schedule 
+	Benefits of API:
+			->Ease of Integration
+			->Security
+REST API:
+	1.  Representational State Transfer
+				enable communication b/w application & Service
+				returning state of an object
+	2. How request is triggered		
+					GET -> Retrieve any information from server
+				/	POST -> Adding any information to the server
+    /				PUT  -> Updating any information
+/					DELETE -> To delete a resource
+		How request is being processed
+
+
+RestController => Controller & ResponseBody
+		How response is provided
+						
+
+1. RequestParam->Read values from user through a form
+2. RequestBody -> prompt the user to enter details along with the request
+3. PathVariable -> retrieve the value from url.
+4. ResponseBody -> returning response to the client.
+
+Spring Security:
+	1. Basic Security
+			->Authentication
+			->/login
+			->/logout
+	2. In-Memory Authentication
+			->Authentication Authorization
+	3. JWT
+			->Token Based Security
