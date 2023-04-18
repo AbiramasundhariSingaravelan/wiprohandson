@@ -1,0 +1,25 @@
+Microservices:
+	1. Monolithic Architecture
+			->What is Monolithic
+			->Drawback of Monolithic
+			->Why Microservices
+			->Amazon	
+					1. Purchase/Selling
+					2. Delivery
+					3. Tracking
+					4. Payment Gateway
+	2. MicroService Architecture:
+			1. breaking the single appln into multiple modules
+			2. modules will be individually executable
+			3. Every module will have its own database
+			4. Every Microservice will be individually deployable
+	3. account-microservice
+		deposit-microservice
+		withdraw-microservice
+	4. Communication b/w *microservice
+			1. Rest Template
+					1. book-info-service
+					2. book-list service
+					3. book ratings service
+			2. Feign Client
+	

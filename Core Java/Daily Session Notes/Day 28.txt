@@ -1,0 +1,10 @@
+Microservices
+		Communication:
+			1. Rest Template
+			2. Feign Client
+					->part of Spring framework
+					->Microservice A
+					->Microservice B
+								->Should contain feign client
+								->add the feign client dependency
+								->create a proxy interface -> takes url of another microservice

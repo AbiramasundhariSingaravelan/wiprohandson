@@ -15,6 +15,9 @@ JWT
 
 Lombok:
 		->prevent boilerplate code
+		->Download lombok from their official website
+		->Double click the downloaded jar file and execute it
+		->Scanning for IDE's
 
 Core Spring
 Spring MVC
@@ -23,5 +26,183 @@ SPring Data JPA / Hibernate
 Spring Rest API
 Spring Test
 		Unit Testing all layers of spring boot application
-		Junit
+		Junit	
+				->Traditional unit testing framework for java
+				->Assertions
+						assertEquals
+						assertNotEquals
+						asserrtTrue
+						assertFalse
+				-> unit test for exceptions, parameterized 
 		Mockito
+				-> testing objects that are still in development.
+				Stub
+					->answering the test
+				fake
+					->dummy object
+				mock
+					->dummy object
+	when->Precondition
+	willReturn->Return statement
+
+Core Spring:
+	1. Loose Coupling
+	2. Dependency Injection
+				What -> removes any dependency from the application
+				How -> Inversion of Control -> IOC Container
+					ApplicationContext
+					BeanFactory
+	3. Spring Architecture
+				1. Core Container
+						->Beans -> BeanFactory
+						->Core -> fundamental functionality->IOC/DI
+						->Context -> Accessing and Configuring
+						->SpEL -> Manipulate Objects in runtime.
+				2. Data Access / Integration
+						-> Jdbc
+						-> ORM
+						-> Transaction
+						-> JMS
+				3. Web
+						->Servlet
+						->WebSocket
+	4. Creating a application in Spring Framework
+			1. Student Model/Bean Class -> Id/Name/Dept/Address->Getter/Setters/Constructor
+			2. Bean Specification
+					->xml
+						->Injecting the values
+			3. Bean Factory
+					->accessing a spring bean container
+					->Configuring the properties.
+					->Extended Class -> XmlBeanFactory
+			4. ApplicationContext
+					->enhanced functionality
+					->Extended Class -> ClassPathXmlApplicationContext
+		5. Dependency Injection
+					Methodologies: 1. Setter Based Injection
+												Model -> Getters/Setters
+												Xml -> <property>
+												Dependent Object : ref
+												Collection Object : <list> <set> <map>
+									  2. Constructor Based Injection
+												Model -> Constructors
+												xml -> <constructor-arg>
+												Dependent Object : <ref>	
+												Collection Object: <list> <set> <map>
+									  3. Autowiring
+											   Setter Based / Constructor Injection
+												Modes -> byName -> name of bean & name of injected object
+															byType -> injecting dependency basd on type 
+															Constructor->based on constructor
+			6. Spring Configuration:
+						1. Required
+						2. Autowired
+						3. Qualifier
+						4. Configuration -> Source of bean definition
+						5. ComponentScan -> scan a package for beans
+						6. Bean -> method level annotation
+						7. Component -> treating the java class as a bean
+			7. Spring Scopes
+					1. Singleton -> Only One instance of Spring Bean
+					2. Prototype -> any number of bean instances
+					3. Request -> Http Request
+					4. Session -> Http Session
+			8. Aspect Orientation
+					1. Cross Cutting Concern
+					2. JoinPoint -> any point
+					3. Advice -> action
+							1. Before Advice -> executing before the join point
+							2. After Advice ->  executing after the join point
+							3. After Throwing	-> method executes and throws an exception		
+							5. After Returning -> method executes normally
+							6. Around -> before and after the Join Point
+					4.PointCut -> expression Language.		
+Spring Boot
+		Spring Core - XML Configuration + Embedded TomCat Server
+ 		SB Annotations:
+				1. Controller
+				2. RequestMapping
+				3. RequestParam	
+				4. PathVariable
+				5. GetMapping
+				6. PostMapping
+				7. PutMapping
+				8. DeleteMapping
+		Creating spring boot app:
+				1. Using STS inside Eclipse
+				2. Using Spring initializer
+		Dependencies:
+				1. Spring Web
+				2. Spring Boot DevTools
+				3. Lombok
+				4. Spring Data Jpa
+				5. H2 Database
+				6. Mysql Driver
+				7. Jasper
+		Spring Boot Actuator:
+				1. Endpoint
+							/health-check
+		REST Operations
+				1. GET
+				2. POST
+				3. PUT
+				4. DELETE
+				Http Status Code
+				 -> 200 -> OK
+				 -> 201 -> Created
+				 -> 400 -> Bad Gateway 
+				 -> 404 -> Not Found
+  				 -> 401 -> unauthenticated
+				 -> 403 -> Forbidden
+				 -> 405 -> Method Not Allowed
+				 -> 500 -> Internal Server Error 
+		 Exception Handling
+				@ExceptionHandler
+				@ResponseStatus
+				@ControllerAdvice
+				ResponseEntity class -> Capture Status Code
+Spring Data JPA
+			ORM
+				->Object Relational Mapping
+				->POJO Class + Data Models
+			ORM Annotations
+					1. Entity
+					2. Table
+					3. Id
+					4. Column
+					5. GeneratedValue
+					6. JpaRepository/CrudRepository
+			JPA Methods
+				1. findById
+				2. findAll
+				3. save
+				4. deleteById
+				5. customJpa Methods
+			Relations
+					One to One Mapping
+					One to Many Mapping
+					Many to One Mapping
+					Many to Many Mapping
+			Hibernate
+				CRUD OPeration
+						XML Based ->cfg.xml/ mapping.xml
+						Annotation Based
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
