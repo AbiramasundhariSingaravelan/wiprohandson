@@ -8,3 +8,5 @@ Microservices
 								->Should contain feign client
 								->add the feign client dependency
 								->create a proxy interface -> takes url of another microservice
+								->Service Discovery 
+								->Service Registration
