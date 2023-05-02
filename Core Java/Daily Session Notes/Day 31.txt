@@ -1,0 +1,60 @@
+Basic Security
+		->Spring Security Dependency
+			->user,
+		->spring.security.user.name
+		->spring.secuirty.user.password
+In-Memory Authentication
+		->authenticate + authorization
+JWT
+	Json Web Tokens
+	->authenticate
+			->username,password
+			->Generating a token (JWT)
+			->Parts of JWT Token
+					->Header
+						->Type of Token
+						->using algorithm
+					->Payload
+						->Credentials
+					->Signature
+							->Header + Payload
+							->64 bit encoding of header & Payload
+	->Session based Token
+			->storing the token in server
+			->
+Student 
+		->name,age,dept,address
+{
+	"name":"abi",
+	"age":"15",
+	"Dept":"cse",
+	"address":"Chennai"
+}
+
+
+localhost:8080/newsfeed
+
+
+
+Creating a JWT Based Application
+
+1. Create a Model Class
+			AuthenticationRequest->username, password, 
+			AuthenticationResponse->jwt
+2. Create a Service Layer
+			->Generating the credentials
+			->UserDetails -> Interface
+			->loadByUsername
+			1. create a service class by implementing it from "UserDetailsService"
+			2. Override loadUserByUsername
+					->taking credentials + granted authorities
+3. Creating a configuration
+			1. Extend confiuration class from WebSecurityConfigurerAdapter
+			2. Implement overrided "Configure" method
+					2.1 One implemntation of configure ->Processing the credentials
+					2.2 Second implementation of configure -> handle accessing of urls.
+			3. Encoding of Password
+					1. NoOpPasswordEncoder
+					2. BCrypt
+4. Create a Controller Class
+5. Creating a filter

@@ -1,0 +1,31 @@
+Introduction
+Building Blocks of angular
+	Components
+	Directives
+	Modules
+	Services
+Installation
+	Node JS
+	VS code
+Hello World
+Data Binding
+Component
+Directives
+Nesting Angular Components
+		@Input -> Pass data from parent to child
+		@output -> Pass data from child to parent
+Product -> Parent Component
+product-details -> Child Component
+
+Angular Directives
+		->automate the task
+	ngIf
+	ngFor
+
+Attribute Directives
+		ngClass -> add/remove any css class
+		ngStyle -> add any inline styling 
+Structural Directive
+		ngIf
+		ngFor
+	   ngSwitch

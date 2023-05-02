@@ -1,0 +1,35 @@
+Class
+	->Collection of data members and member function
+   ->Object
+	->Class Inheritance
+Promises
+	->Link producer code and consume code
+Typescript:
+	->extension to javascript(5)
+	->ECMA Script5 + 6 + Addl features
+	->Node JS
+	->Install typescript
+	->Compiling Typescript : tsc filename.ts
+				Transcompilation : Converting typescript into javascript		
+	-> Variable Declaration :
+ 			1. var name_of_variable : datatype = value; 
+			2. var name_of_variable : datatype;
+			3. var name_of_variable = value;
+			4. var name_of_variable
+	-> Decision Making:
+			1. If
+			2. switch
+	-> Looping:
+ 			1. For Loop
+				For-in Loop
+			2. Do-While Loop
+			3. While Loop
+	-> array/Tuples
+	-> Functions
+			->Parameterized method
+			->Optional Parameters
+			->Rest Parameters
+	-> Classes / Interfaces
+	-> Objects
+            		
+				

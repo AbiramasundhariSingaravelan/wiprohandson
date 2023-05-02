@@ -1,0 +1,46 @@
+Implementing Microservices
+Communication b/w Microservices
+	->Rest Template
+	->Feign Client
+Spring Cloud and Netflix Oss
+	->Eureka Server ( Service Discovery & Registration)
+	->Load Balancer
+Circuit Breaker and Resilience4j
+Implement Resilence4j
+Monitoring with Actuator
+
+Circuit Breaker:
+		1. service -> invoking remote service
+		2. States of Circuit Breaker
+					1. Open State -> consecutive failures -> exceeds threshold
+					2. Half Open State -> limited number of tests -> time is expired
+					3. Closed State -> normal operation
+Resilence4j:
+		1. alternative -> NEtflix HYstrix
+		2. built on top of functional language
+Resilence4j Configuration:
+		1. registerHealthIndicator -> enable health indicator
+		2. slidingWindowType -> configure the type of sliding window-> record the outcome->closed state
+		3. slidingWindowSize: determines the maximum value -> record the outcome
+		4. minimumNumberofCalls: configures the minimum number of calls ( 100)
+API Gateway:
+	1. single entry point for collection of microservices
+
+Microservice 1 : Employee -> 8081
+
+Microservice 2 : Consumer -> 8082
+
+Cloud Gateway : 8080
+
+localhost:8081/employee/add
+localhost:8082/consumer/add
+
+
+localhost:8080/employee/add
+localhost:8080/consumer/add
+
+Log Tracing
+		Logging
+				->capture what is happening behind the appln -> file
+		Distributed Log Tracing 
+				-> Spring Sleuth

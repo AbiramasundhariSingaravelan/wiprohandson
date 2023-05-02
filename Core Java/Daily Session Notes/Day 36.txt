@@ -1,0 +1,45 @@
+create an angular application that contains four components namely student, Exam, Employee, Tasks. Enable routing for all components and have navigation for these components using bootstrap navigation bar. Student and Employee component should contain the basic details such as id,name,age,and address. Define these properties in student.ts and employee.ts file. Provide value for these properties by creating an instance for the same. Finally render the properties in view file. For the exam components, create exam.ts file and have properties like examid, date, duration and display these properties in view file. Create one more component with the name as tasks and have taskid and taskname as property and display it in view file.
+
+
+Step 1: ng new Angular_app
+Step 2: Creating components
+ng g c student -> html file -> <p> student works!</p>
+ng g c exam
+ng g c employee
+ng g c task
+Step 3: Enable Routing
+App.comp.html => include bootstrap cdn -> navigation menu bar  Student Exam Employee Tasks
+app.routing.module.ts => {path:'view-student', component: StudentComponent}
+Step 4 : Create separate typescript classes with properties
+Student.ts
+   class Student
+   {
+         id:number;
+         name:string;
+         addr:string;
+			age:number
+			constructor(){.....}
+   }
+Exam.ts
+Step 5: Define values for all properties.
+Option 1: For defining student class properties:
+          Creating an instance in student.component.ts file
+									stud=new Student(1,"aa","aa"15);
+			Display the value in student.component.html file using interpolation
+								{{stud.id}} - {{stud.name}}
+Option 2: For creating list of students 
+				->creating another typescript file
+				->Create an array instance of student class 
+							stud=Student[]{id:1,name:"aa", }
+				->In Student.comp.ts, create one instance array object created in previous step
+				->Based on instance created previous step, you can have the data to be displayed in html file
+				
+Form Handling:
+
+	1. Template driven form
+	2. Reactive Forms
+Validation Classes:
+1. valid ->
+2. pristine -> current data is not changed
+3. invalid -> 
+4. dirty -> current data is changed.

@@ -1,0 +1,43 @@
+Javascript / Typescript
+
+Angular/React
+		->Single Page Web Applications
+				->Any application that is not reloading for each and every request
+				->Outlook
+		-> Angular JS
+		-> Angular Version 7 -> Typescript
+		-> Building Blocks:
+				1. Components -> Entities/Elements that is available on the application. 
+				2. Templates -> design your component
+				3. Directives -> annotations in java
+				4. Modules -> Collection of Libraries
+				5. Services -> Dependency Injection
+		-> Getting Started with Angular:
+					Prerequisites:
+							1. Node JS Installation
+							2. Install Typescript
+							3. Install Angular using node cli.
+		-> Execution Flow of Angular:
+					angular.json -> main.ts -> app.component.ts -> app.component.html
+		-> Data Binding
+					One Way Data Binding
+						->passing data from component to view
+						-> Interpolation Binding {{}}
+						-> Property Binding []
+						-> Event Binding ()
+					Two Way Data Binding
+						->passing data from component to view as well as view to component
+						->ngModel -> [()]
+		-> Creating a new component:
+					ng g c component_name
+					ng generate component component_name
+					ng g c courses
+		-> Routing:
+					-> enabling navigation b/w your web pages
+					1. Enable routing while creating the application
+							 ng generate --routing
+					2. Provide urls inside app-routing.module.ts
+												path, component
+					3. Add respective urls in the html file
+							routerLink	
+					4. Add router-outlet tag in app.comp.html

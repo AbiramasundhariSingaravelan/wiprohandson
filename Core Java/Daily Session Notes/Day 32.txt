@@ -1,0 +1,45 @@
+Angular:
+	Angular JS
+	Angular -> TS
+
+Javascript / Typescript
+
+HTML -> to define the content of web pages
+/CSS -> to specify the formatting of the web pages
+/Javascript -> client side validation
+
+Visual Studio Code
+
+Javascript Output Statements
+ 	1. alert -> popup box
+	2. innerHtml ->write content to html tags using javascript
+	3. console.log -> error processing statement
+	4. document.write() -> printf statement
+Javascript Variables:
+		var -> declare a variable that can be changed
+		let -> cannot be redeclared.
+		const ->redeclaration is not allowed. const value cannot be changed. 
+
+Javascript Functions
+		building block
+Javascript Arrays:
+		Collection of similar date items
+Array Methods:
+		1. Length
+		2. toString
+		3. sort
+		4. slice
+		5. pop
+		6. push
+		7. shift
+Javascript Events:
+	1. click
+	2. dblclick
+	3. keypress
+	4. keydown
+	5. cut
+	6. copy
+	7. paste
+	8. focus
+	9. blur
+	

@@ -10,3 +10,15 @@ Microservices
 								->create a proxy interface -> takes url of another microservice
 								->Service Discovery 
 								->Service Registration
+			3. Service Registration & Service Discovery
+						Service Discovery:
+										->Discovers any other microservice
+										-> Microservice A -> 18.25.14.5
+										-> Microservice B -> 10.4.65.78
+										-> First Phase -> Registration
+										-> Second Phase -> find a service that is registered.
+						Communication Workflow:
+									1. Service Provider location -> Service Registry
+									2. Service Consumer -> ask->Service Registry->location of service 												Provider
+									3. Service Registry ->respond->Service Consumer->location of SP
+									4. Service Provider -> Service Consumer -> Direct Communication

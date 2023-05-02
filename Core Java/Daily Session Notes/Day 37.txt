@@ -1,0 +1,31 @@
+Introduction
+		->Framework -> SPA
+		->Building Block of Angular
+				->Components
+						->Element that we can visualize
+						->App Component
+								=>courses
+								=>product
+								=>contact
+								=>product-details
+				->Directives
+						->automate any tasks
+						->Structural Directive
+								->ngIF
+								->ngFor
+								->ngSwitch
+						->Attribute Directive
+								->ngStyle
+				->Modules
+				->Services
+		->Data Binding
+				->Passing up of data b/w component and view
+				->one way direction -> One way Data Binding -> passed from component to view
+					->Interpolation -> {{var_name}}
+					->Property Binding -> applied for attributes of html tags. [htmlattribute]
+					->Event Binding -> (event_name) 
+				->two way direction ->Two Way Data Binding -> passed from component to view / view to component -> NgModel
+		->Forms
+				->Template-Driven -> FormsModule
+				->Reactive Forms  -> ReactiveForms
+						

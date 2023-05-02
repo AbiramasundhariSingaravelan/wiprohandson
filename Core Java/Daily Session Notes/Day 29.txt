@@ -1,0 +1,45 @@
+Microservices:
+		->Need of Microservice
+		->every module -> own DB
+		->Communication
+				1. Rest Template
+						->Creating an instance of RestTemplate
+						->getForObject()
+						->taking url of another microservice
+				2. Feign Client
+						->Spring Cloud
+						->@EnableFeignClients -> Spring Boot Main Method Class
+						->@FeignClient -> pass the url of another microservice
+						->Proxy -> Interface -> FeignClient	-> passing the url	
+				3. Spring Cloud
+						->Service Discovery 
+								->fetch all services that needs to be registered.
+								->Discovery Server
+										-> Eureka Server
+										-> Netflix OSS
+						 Service Registration
+						->Eureka Server
+				4. Netflix OSS
+						-> Framework or collection of libraries.
+						-> Distributed Network
+						Components of Netflix OSS:
+								1. A  -> Microsoft Office -7    
+									B  -> Microsoft Office - 16
+								Hypervisor -> Virtualization -> Guest OS
+				5. Load Balancing
+							Server-Side Load Balancing
+									->Monolithic Architecture
+									->limited number of application instances
+									->Jar/War files of application
+									->Multiple Servers -> deploy instances of appln
+									-> 3 IP Address
+							Client-Side Load Balancing
+									->microservice arch->n number of microservices	
+									->each microservice -> multiple instances
+									->service discovery
+											->eureka
+											->Netflix ribbon -> Spring Cloud
+												->Load Balancing
+												->Fault Tolerance
+												->Multiple Protocols ( Http, TCP, UDP)
+												->Caching
